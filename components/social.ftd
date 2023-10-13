@@ -1,0 +1,24 @@
+-- ftd.type dtype:
+weight: 400
+font-family: Arial
+size.px: 18 
+
+-- component wrapper:
+string url:
+ftd.image-src image:
+
+-- ftd.row:
+align-content: center
+margin-vertical.px: 30
+width: fill-container
+
+-- ftd.image: $wrapper.image
+role: $dtype
+color: #6A6F81
+link: $wrapper.url
+width.fixed.px: 29
+height.fixed.px: 33
+
+-- end: ftd.row
+
+-- end: wrapper

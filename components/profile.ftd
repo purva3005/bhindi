@@ -1,0 +1,90 @@
+-- ftd.type dtype:
+weight: 400
+font-family: Arial
+size.px: 18 
+
+-- component wrapper:
+caption username:
+string city:
+string github-url:
+string linkedin-url:
+string instagram-url:
+string twitter-url:
+ftd.image-src avatar:
+optional ftd.responsive-type role:
+
+-- ftd.column:
+width: fill-container
+border-radius.px: 10
+overflow: hidden
+
+-- ftd.image:
+src: $assets.files.images.bg-pattern-card.svg
+alt: background
+
+-- ftd.column:
+align-content: center
+width: fill-container
+
+-- ftd.image: $wrapper.avatar
+margin-top.px: -70
+border-color: white
+border-width.px: 5
+border-radius.percent: 50
+
+-- ftd.container:
+
+-- ftd.row:
+spacing.fixed.px: 10
+margin-top.px: 20
+
+-- ftd.text: $wrapper.username
+style: bold
+role: $dtype
+color: #403540
+
+-- end: ftd.row
+
+-- ftd.text: $wrapper.city
+role: $dtype
+margin-top.px: 10
+color: #6A6F81
+
+-- ftd.row:
+border-top-width.px: 2
+border-color: #969696 
+margin-top.px: 30
+width: fill-container
+align-content: center
+
+;; -------------------------
+;; SOCIAL BUTTON STARTS
+;; -------------------------
+
+-- social.wrapper:
+url: $wrapper.linkedin-url
+image: $assets.files.images.linkedin.png
+
+-- social.wrapper:
+url: $wrapper.github-url
+image: $assets.files.images.github.png
+
+-- social.wrapper:
+url: $wrapper.twitter-url
+image: $assets.files.images.twitter.png
+
+-- social.wrapper:
+url: $wrapper.instagram-url
+image: $assets.files.images.instagram.png
+
+-- end: ftd.row
+
+;; -------------------------
+;; SOCIAL BUTTON ENDS
+;; -------------------------
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: wrapper

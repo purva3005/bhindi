@@ -1,0 +1,129 @@
+;;------------------------------------------------------------------------------------------------------
+;;-----------------------Start of Desktop Mode----------------------------------------------------------
+;;------------------------------------------------------------------------------------------------------
+
+-- ftd.desktop:
+
+-- ftd.container: 
+width: fill-container
+height: fill-container
+
+-- ftd.container:
+background.solid: #19A2AE
+width: fill-container
+height: fill-container
+overflow: hidden
+
+-- ftd.column:
+align-content: center
+
+-- ftd.image: $assets.files.images.bg-pattern-top.svg
+z-index: 1
+margin-left.rem: -70
+margin-top.px: -500
+
+-- ftd.image: $assets.files.images.bg-pattern-bottom.svg
+z-index: 2
+margin-right.rem: -60
+margin-top.rem: -10
+
+-- ftd.container:
+background.solid: white
+z-index: 3
+margin-top.rem: -72
+border-radius.px: 10
+
+;;----------------------Change the Name Victor Crest with your Name------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;------Replace the image-victor.jpg image with your image name also remember to store it in the image folder------
+;;-----------------------------------------------------------------------------------------------------------------
+;;---------------------Change the city name according to your city location----------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change all the urls with your actuall url's------------------------------------------
+
+-- profile.wrapper: Victor Crest
+avatar: $assets.files.images.image-victor.jpg
+city: London
+github-url: https://www.github.com/
+linkedin-url: https://www.linkedin.com/
+instagram-url: https://www.instagram.com/
+twitter-url: https://twitter.com/
+
+-- end: ftd.container
+
+-- end: ftd.column
+
+-- end: ftd.container
+
+-- end: ftd.container
+
+-- end: ftd.desktop
+
+;;-------------------------------------------------------------------------------------------------------------------
+;;---------------------------------End of Desktop Mode---------------------------------------------------------------
+;;-------------------------------------------------------------------------------------------------------------------
+
+;;-------------------------------------------------------------------------------------------------------------------
+;;------------------------------Start of Mobile Mode-----------------------------------------------------------------
+;;-------------------------------------------------------------------------------------------------------------------
+
+-- ftd.mobile:
+
+-- ftd.container: 
+width: fill-container
+height: fill-container
+
+-- ftd.container:
+background.solid: #19A2AE
+width: fill-container
+height: fill-container
+overflow: hidden
+
+-- ftd.column:
+align-content: center
+
+-- ftd.image: $assets.files.images.bg-pattern-top.svg
+z-index: 1
+margin-left.rem: -60
+margin-top.px: -530
+
+-- ftd.image: $assets.files.images.bg-pattern-bottom.svg
+z-index: 2
+margin-right.rem: -50
+margin-top.rem: -10
+
+-- ftd.container:
+background.solid: white
+z-index: 3
+margin-top.rem: -70
+border-radius.px: 10
+
+;;----------------------Change the Name Victor Crest with your Name------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;------Replace the image-victor.jpg image with your image name also remember to store it in the image folder------
+;;-----------------------------------------------------------------------------------------------------------------
+;;---------------------Change the city name according to your city location----------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change all the urls with your actuall url's------------------------------------------
+
+-- profile.wrapper: Victor Crest
+avatar: $assets.files.images.image-victor.jpg
+city: London
+github-url: https://www.github.com/
+linkedin-url: https://www.linkedin.com/
+instagram-url: https://www.instagram.com/
+twitter-url: https://twitter.com/
+
+-- end: ftd.container
+
+-- end: ftd.column
+
+-- end: ftd.container
+
+-- end: ftd.container
+
+-- end: ftd.mobile
+
+;;------------------------------------------------------------------------------------------------------------------
+;;----------------------------------------End of Mobile Mode--------------------------------------------------------
+;;------------------------------------------------------------------------------------------------------------------
